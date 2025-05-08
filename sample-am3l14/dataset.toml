@@ -1,0 +1,14 @@
+[general]
+shuffle_caption = false
+caption_extension = '.txt'
+keep_tokens = 1
+
+[[datasets]]
+resolution = 512
+batch_size = 1
+keep_tokens = 1
+
+  [[datasets.subsets]]
+  image_dir = '/home/ubuntu/fluxgym/datasets/am3l14'
+  class_tokens = 'am3l14'
+  num_repeats = 8
