@@ -34,6 +34,6 @@ cd fluxgym
 git clone -b sd3 https://github.com/kohya-ss/sd-scripts
 
 # start the server
-python app.py
+#python app.py
 
 
